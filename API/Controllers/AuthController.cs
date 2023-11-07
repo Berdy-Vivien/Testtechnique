@@ -114,7 +114,7 @@ namespace API.Controllers
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration.GetSection("Settings:JWTSecret").Value!));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
-            var expiration = DateTime.UtcNow.AddMinutes(120);
+            var expiration = DateTime.UtcNow.AddMinutes(240);
 
             var token = new JwtSecurityToken(
                 claims:claims,
