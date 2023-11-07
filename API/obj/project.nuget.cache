@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yBoEKq1FMWWZmMBeQxZsBaoAuUdtBXu2cmBGBjaZoPT+Lc3LaOFyyKHF+Ng4sPpBQleVdw5oNyCwkpFXc5KakQ==",
+  "dgSpecHash": "DbXRDIPLNXr10c1DAtAjLOguJ047aLTnk81v1kBy1VbKNsdidQO9lnTqHUYYpizOHaG6KCGW62WWnwQpx0aKfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Berdy\\tuto\\TestTTechnique\\api\\API.csproj",
+  "projectFilePath": "C:\\Users\\Berdy\\tuto\\TestTTechnique\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Berdy\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Berdy\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -205,7 +205,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Le package 'BCrypt.Net 0.1.0' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net7.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "message": "Package 'BCrypt.Net 0.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
       "libraryId": "BCrypt.Net",
       "targetGraphs": [
         "net7.0"

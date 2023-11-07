@@ -33,7 +33,7 @@ namespace API.Controllers
         }
 
         // GET: api/User/5
-        [HttpGet("{id}")]
+        [HttpGet("get/{id}")]
         public async Task<ActionResult<User>> GetUser(int id)
         {
           if (_context.user == null)
@@ -52,7 +52,7 @@ namespace API.Controllers
 
         // PUT: api/User/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
+        [HttpPut("update/{id}")]
         public async Task<IActionResult> PutUser(int id, User user)
         {
             if (id != user.Id)
@@ -83,7 +83,7 @@ namespace API.Controllers
 
         // POST: api/User
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPost]
+        [HttpPost("create")]
         public async Task<ActionResult<User>> PostUser(User user)
         {
           if (_context.user == null)
@@ -96,14 +96,14 @@ namespace API.Controllers
             return CreatedAtAction("GetUser", new { id = user.Id }, user);
         }
 
-        [HttpGet("/me"), Authorize]
+        [HttpGet("me"), Authorize]
         public ActionResult MeUser()
         {
             return Ok("yes");
         }
 
         // DELETE: api/User/5
-        [HttpDelete("{id}")]
+        [HttpDelete("delete/{id}")]
         public async Task<IActionResult> DeleteUser(int id)
         {
             if (_context.user == null)

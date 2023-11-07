@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Berdy\\tuto\\TestTTechnique\\api\\API.csproj": {}
+    "C:\\Users\\Berdy\\tuto\\TestTTechnique\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Berdy\\tuto\\TestTTechnique\\api\\API.csproj": {
+    "C:\\Users\\Berdy\\tuto\\TestTTechnique\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Berdy\\tuto\\TestTTechnique\\api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Berdy\\tuto\\TestTTechnique\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Berdy\\tuto\\TestTTechnique\\api\\API.csproj",
+        "projectPath": "C:\\Users\\Berdy\\tuto\\TestTTechnique\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Berdy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Berdy\\tuto\\TestTTechnique\\api\\obj\\",
+        "outputPath": "C:\\Users\\Berdy\\tuto\\TestTTechnique\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Berdy\\AppData\\Roaming\\NuGet\\NuGet.Config"

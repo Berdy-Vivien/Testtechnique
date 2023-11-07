@@ -32,7 +32,7 @@ namespace API.Controllers
         }
 
         // GET: api/Site/5
-        [HttpGet("{id}")]
+        [HttpGet("get/{id}")]
         public async Task<ActionResult<Site>> GetSite(int id)
         {
           if (_context.site == null)
@@ -51,7 +51,7 @@ namespace API.Controllers
 
         // PUT: api/Site/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
+        [HttpPut("update/{id}")]
         public async Task<IActionResult> PutSite(int id, Site site)
         {
             if (id != site.Id)
@@ -82,7 +82,7 @@ namespace API.Controllers
 
         // POST: api/Site
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPost]
+        [HttpPost("create")]
         public async Task<ActionResult<Site>> PostSite(Site site)
         {
           if (_context.site == null)
@@ -96,7 +96,7 @@ namespace API.Controllers
         }
 
         // DELETE: api/Site/5
-        [HttpDelete("{id}")]
+        [HttpDelete("delete/{id}")]
         public async Task<IActionResult> DeleteSite(int id)
         {
             if (_context.site == null)

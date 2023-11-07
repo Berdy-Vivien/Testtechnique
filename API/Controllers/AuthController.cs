@@ -29,7 +29,7 @@ namespace API.Controllers
         }
 
 
-        [HttpPost("/register")]
+        [HttpPost("register")]
         public async Task<ActionResult<User>> Register(String Username, string Userpassword,int privilege)
         {   
             
@@ -67,7 +67,7 @@ namespace API.Controllers
         }
 
 
-        [HttpPost("/login")]
+        [HttpPost("login")]
         public async Task<ActionResult> LogIn(string Username,string Userpw)
         {
             var user = await _context.user.FirstOrDefaultAsync(u => u.Name == Username);
@@ -89,7 +89,7 @@ namespace API.Controllers
            
         }
 
-        [HttpGet("/logout")]
+        [HttpGet("logout")]
         public IActionResult Logout()
         {   
             var tokenBlacklist= new TokenBlacklist();
